@@ -1,12 +1,11 @@
 {
   "file": "",
-  "name": "pages",
   "fileType": "md",
   "fmType": "yaml",
   "template": [
     {
       "name": "title",
-      "label": "Title",
+      "label": "home",
       "type": "string",
       "value": "",
       "description": "",
