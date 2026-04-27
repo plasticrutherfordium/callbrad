@@ -1,5 +1,6 @@
 ---
 import { bookingUrl } from '../../data/site';
+import { workspaceBuyerDpoDiscounts, workspacePackages } from '../../data/offers';
 ---
 
 <section class="pt-32 pb-20 lg:pt-40 lg:pb-32 bg-gradient-to-br from-[#2b2e83]/5 via-white to-white">
@@ -19,12 +20,66 @@ import { bookingUrl } from '../../data/site';
         Available now in Notion. Full Confluence and Google Workspace versions are coming soon.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href={bookingUrl} class="px-8 py-4 bg-[#2b2e83] text-white font-semibold rounded-xl hover:bg-[#232465] transition-all hover:shadow-lg hover:shadow-[#2b2e83]/25">
-          Explore the workspace
+        <a href="#packages" class="px-8 py-4 bg-[#2b2e83] text-white font-semibold rounded-xl hover:bg-[#232465] transition-all hover:shadow-lg hover:shadow-[#2b2e83]/25">
+          See packages
         </a>
         <a href="#features" class="px-8 py-4 bg-white text-[#2b2e83] font-semibold rounded-xl border-2 border-[#2b2e83] hover:bg-[#2b2e83]/5 transition-colors">
           Learn more
         </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="packages" class="py-20 lg:py-28 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#2b2e83] mb-4">
+        Workspace packages
+      </h2>
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        The current workspace offer is available now in Notion. Full Confluence and Google Workspace workspace versions remain coming soon only.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      {workspacePackages.map((pkg, index) => (
+        <div class:list={['rounded-2xl p-8 bg-white border transition-all', index === 1 ? 'border-2 border-[#2b2e83] shadow-lg shadow-[#2b2e83]/10' : 'border-gray-200']}>
+          <h3 class="font-montserrat text-2xl font-bold text-[#2b2e83] mb-2">{pkg.name}</h3>
+          <div class="flex items-baseline gap-2 mb-4">
+            <span class="text-4xl font-bold text-[#2b2e83]">{pkg.price}</span>
+            <span class="text-gray-500">{pkg.billing}</span>
+          </div>
+          <p class="text-gray-600">{pkg.summary}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8">
+      <div class="bg-gray-50 rounded-3xl p-8">
+        <h3 class="font-montserrat text-2xl font-bold text-[#2b2e83] mb-4">
+          Available now in Notion
+        </h3>
+        <p class="text-gray-600 mb-4">
+          The current workspace offer is available now in Notion. It is designed to support connected GDPR records, review logic, ownership, and practical follow-up work.
+        </p>
+        <p class="text-gray-500">
+          Full Confluence and Google Workspace workspace versions are still coming soon and should not be treated as launched offers.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl p-8 border border-[#2b2e83]/20">
+        <h3 class="font-montserrat text-2xl font-bold text-[#2b2e83] mb-4">
+          Workspace buyer DPO discount
+        </h3>
+        <ul class="space-y-3 text-gray-700 mb-4">
+          {workspaceBuyerDpoDiscounts.map((item) => (
+            <li><strong>{item.discount}</strong> on {item.package}</li>
+          ))}
+        </ul>
+        <p class="text-sm text-gray-500">
+          First 12 months only. Excludes add-ons and urgent support.
+        </p>
       </div>
     </div>
   </div>
@@ -153,14 +208,13 @@ import { bookingUrl } from '../../data/site';
 <section class="py-20 lg:py-28 bg-gradient-to-b from-[#2b2e83]/10 to-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#2b2e83] mb-6">
-      Pricing and rollout details can be refined next
+      Start with the Notion workspace now
     </h2>
     <p class="text-lg text-gray-600 mb-8">
-      The page structure is ready for final workspace pricing, feature detail, screenshots, and testimonials once those business details are confirmed.
+      Use the existing booking link if you want to discuss which workspace package fits your team and whether DPO support should sit alongside it.
     </p>
-    <!-- TODO: Replace this placeholder copy with the final workspace pricing and rollout details once approved. -->
-    <div class="inline-flex items-center px-6 py-3 rounded-full bg-white border border-[#2b2e83]/20 text-[#2b2e83] font-medium">
-      Workspace pricing: coming soon
-    </div>
+    <a href={bookingUrl} class="inline-flex items-center px-8 py-4 bg-[#2b2e83] text-white font-semibold rounded-xl hover:bg-[#232465] transition-colors">
+      Book an intro call
+    </a>
   </div>
 </section>

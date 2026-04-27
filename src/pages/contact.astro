@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { bookingUrl, contactEmail } from '../data/site';
+import { iappCredentials, trainingOffer, workspacePackages } from '../data/offers';
 ---
 
 <Layout title="Contact | Call Brad" description="Contact Call Brad to discuss GDPR workspace, DPO services, and GDPR training.">
@@ -13,8 +14,11 @@ import { bookingUrl, contactEmail } from '../data/site';
       <h1 class="font-montserrat text-4xl sm:text-5xl font-bold text-[#2b2e83] mb-6">
         Talk through your current GDPR setup
       </h1>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
-        Use the existing booking link for an intro call, or reach out by email if you want to discuss the workspace, training, or DPO services.
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-6">
+        Use the existing booking link for an intro call, or reach out by email if you want to discuss the Notion GDPR Workspace, DPO Services, or GDPR Training.
+      </p>
+      <p class="text-base text-gray-500 max-w-3xl mx-auto mb-12">
+        The current workspace packages start at {workspacePackages[0].price} {workspacePackages[0].billing}, and training starts at {trainingOffer.price}. IAPP credentials include {iappCredentials.join(', ')}.
       </p>
 
       <div class="grid sm:grid-cols-2 gap-6">
