@@ -1,4 +1,4 @@
-export const bookingUrl = 'https://calendar.notion.so/meet/javier-v1hzm20cy/callbrad-30';
+export const bookingUrl = 'https://calendar.app.google/p6EwDiNGje8nvd9n8';
 export const contactEmail = 'javier@callbrad.eu';
 
 export const navLinks = [
