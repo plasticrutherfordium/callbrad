@@ -251,7 +251,7 @@ export const dpoAddOns = [
   {
     name: 'Urgent out-of-hours support',
     price: '€300/hour',
-    summary: 'Urgent support outside normal business hours.',
+    summary: 'Exceptional support outside normal business hours for urgent privacy incidents, breaches, or regulatory matters.',
   },
 ] as const;
 
