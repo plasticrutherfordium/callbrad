@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { bookingUrl } from '../data/site';
-import { dpoAddOns, dpoLimits, dpoPackages } from '../data/offers';
+import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
 ---
 
 <Layout title="DPO Services | Call Brad" description="Monthly DPO support packages with fixed pricing, add-ons, and workspace-buyer discounts.">
@@ -51,35 +51,46 @@ import { dpoAddOns, dpoLimits, dpoPackages } from '../data/offers';
         </p>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6 mb-12">
+      <div class="grid auto-rows-fr items-stretch gap-6 md:grid-cols-3">
         {dpoPackages.map((pkg, index) => (
-          <div class:list={['bg-white rounded-2xl p-8 transition-all relative flex h-full flex-col', index === 1 ? 'border-2 border-[#2b2e83] shadow-lg shadow-[#2b2e83]/10' : 'border border-gray-200 hover:border-[#2b2e83]/30']}>
+          <div class:list={['bg-white rounded-2xl p-8 transition-all relative flex flex-col', index === 1 ? 'border-2 border-[#2b2e83] shadow-lg shadow-[#2b2e83]/10' : 'border border-gray-200 hover:border-[#2b2e83]/30']}>
             {index === 1 && (
               <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#2b2e83] text-white text-sm font-semibold rounded-full">
                 Most popular
               </div>
             )}
-            <h3 class="font-montserrat text-xl font-bold text-gray-900 mb-2">{pkg.name} DPO</h3>
+            <h3 class="mb-2 text-center font-montserrat text-xl font-bold text-gray-900">{pkg.name} DPO</h3>
             <p class="text-gray-600 text-sm mb-6">{pkg.summary}</p>
-            <div class="flex items-baseline gap-1 mb-6">
+            <div class="mb-6 flex items-baseline justify-center gap-1">
               <span class="text-4xl font-bold text-[#2b2e83]">{pkg.price}</span>
               <span class="text-gray-500">{pkg.billing}</span>
             </div>
-            <ul class="space-y-3 mb-8 flex-1">
+            <ul class="space-y-3">
               {pkg.points.map((point) => (
-                <li class="flex items-center gap-2 text-sm text-gray-700">
-                  <svg class="w-5 h-5 text-[#2b2e83] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <li class="flex items-start gap-2 text-sm leading-relaxed text-gray-700">
+                  <svg class="mt-0.5 h-5 w-5 flex-shrink-0 text-[#2b2e83]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                   {point}
                 </li>
               ))}
             </ul>
-            <a href={bookingUrl} class:list={['mt-auto block text-center px-6 py-3 font-semibold rounded-lg transition-colors', index === 1 ? 'bg-[#2b2e83] text-white hover:bg-[#232465]' : 'border-2 border-[#2b2e83] text-[#2b2e83] hover:bg-[#2b2e83] hover:text-white']}>
-              Book an intro call
-            </a>
           </div>
         ))}
+      </div>
+
+      <div class="mx-auto mt-6 max-w-5xl px-2">
+        <div class="space-y-1 text-xs leading-relaxed text-gray-500">
+          {dpoPackageNotes.map((note) => (
+            <p>{note}</p>
+          ))}
+        </div>
+      </div>
+
+      <div class="mt-10 flex justify-center">
+        <a href={bookingUrl} class="px-8 py-4 bg-[#2b2e83] text-white font-semibold rounded-xl hover:bg-[#232465] transition-all hover:shadow-lg hover:shadow-[#2b2e83]/25">
+          Book an intro call
+        </a>
       </div>
 
     </div>
@@ -164,18 +175,12 @@ import { dpoAddOns, dpoLimits, dpoPackages } from '../data/offers';
               ))}
               <tr>
                 <td class="px-4 py-4 font-semibold text-gray-900">Workspace buyer discount</td>
-                <td class="px-4 py-4 text-sm text-gray-600">When you buy the workspace, DPO support can be reduced by up to 15% for the first 12 months.</td>
+                <td class="px-4 py-4 text-sm text-gray-600">When you buy the workspace, DPO Packages can be reduced by up to 15% for the first 3 months.</td>
                 <td class="px-4 py-4 text-sm font-semibold text-[#2b2e83]">Up to 15% off</td>
               </tr>
             </tbody>
           </table>
         </div>
-
-        <ul class="mt-4 space-y-2 text-sm text-gray-500">
-          {dpoLimits.map((item) => (
-            <li>{item}</li>
-          ))}
-        </ul>
       </div>
     </div>
   </section>

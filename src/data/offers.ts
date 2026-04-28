@@ -50,7 +50,7 @@ export const workspaceDetailedPackages = [
       'Basic AI-ready workspace capabilities',
       'Review logic for keeping records up to date',
     ],
-    technicalSupport: 'Email, next business day',
+    technicalSupport: 'Email (next business day)',
     immediateImplementation: 'Additional €500',
     additionalExpertHours: '€200 / hour',
     operationalCommitmentHours: '4 hours',
@@ -80,7 +80,7 @@ export const workspaceDetailedPackages = [
       'Recurring review workflows',
       'Ownership and accountability structure',
     ],
-    technicalSupport: 'Email, same business day',
+    technicalSupport: 'Email and/or agreed business messaging channels (next business day)',
     immediateImplementation: 'Additional €800',
     additionalExpertHours: '€200 / hour',
     operationalCommitmentHours: '8 hours',
@@ -112,7 +112,7 @@ export const workspaceDetailedPackages = [
       'Enhanced audit evidence views',
       'Management-ready governance dashboards',
     ],
-    technicalSupport: 'Email + Chat European business hours',
+    technicalSupport: 'Email and/or agreed business messaging channels (same business day)',
     immediateImplementation: 'Additional €1,500',
     additionalExpertHours: '€200 / hour',
     operationalCommitmentHours: '15 hours',
@@ -120,7 +120,7 @@ export const workspaceDetailedPackages = [
       '1h initial setup in Notion',
       '2h initial client session',
       '2h weekly review sessions',
-      '6h data migration and workspace setup',
+      '6h data migration and workspace setup (including Brad AI)',
       '2h Policy Hub setup',
       '2h email and chat support',
     ],
@@ -178,16 +178,17 @@ export const workspaceFlow = [
 export const dpoPackages = [
   {
     name: 'Essential',
-    price: '€300',
+    price: '€200',
     billing: '/month',
-    shortPrice: 'from €300/month',
-    bestFor: 'Best for lean monthly support',
-    summary: 'A lean monthly DPO structure with baseline support and visible scope.',
+    shortPrice: 'from €200/month',
+    bestFor: 'Best for light-touch privacy support',
+    summary: 'For teams that need a formally appointed DPO and light-touch privacy support.',
     points: [
-      '1 x 30 min monthly sync call',
-      'Yearly high-level GDPR gap analysis',
-      'Basic asynchronous support via email',
       'Appointed DPO for 1 entity in 1 jurisdiction',
+      'Up to 1 hour/month of DPO support*',
+      '1 x 30-minute monthly sync call',
+      'Annual light GDPR health check**',
+      'Asynchronous support via email (next business day)',
     ],
   },
   {
@@ -195,14 +196,15 @@ export const dpoPackages = [
     price: '€700',
     billing: '/month',
     shortPrice: '€700/month',
-    bestFor: 'Best for active monthly work',
-    summary: 'For teams with active privacy work that need regular monthly capacity.',
+    bestFor: 'Best for practical support and follow-up',
+    summary: 'For teams that want GDPR work to keep moving with practical support and follow-up.',
     points: [
-      '4 hours work/mo.',
-      '1 x 30 min monthly sync call',
-      'Yearly in-depth GDPR gap analysis',
-      'Basic asynchronous support via email and agreed business messaging channels',
       'Appointed DPO for 1 entity in 1 jurisdiction',
+      'Up to 4 hours/month of DPO support*',
+      '1 x 30-minute monthly sync call',
+      'Annual thorough GDPR health check**',
+      'Asynchronous support via email and/or agreed business messaging channels (next business day)',
+      'Relevant Workspace and GDPR training updates, where applicable.',
     ],
   },
   {
@@ -210,17 +212,24 @@ export const dpoPackages = [
     price: '€1,200',
     billing: '/month',
     shortPrice: '€1,200/month',
-    bestFor: 'Best for broader support needs',
-    summary: 'For teams that need more monthly capacity, priority support, and a clearer action plan.',
+    bestFor: 'Best for stronger governance and faster support',
+    summary: 'For teams that need more active DPO involvement, stronger governance, and faster support.',
     points: [
-      '8 hours work/mo.',
-      '2 x 30 min monthly sync calls',
-      'Yearly in-depth GDPR gap analysis + prioritised action plan',
-      'Priority asynchronous support via email and agreed business messaging channels',
-      'Priority phone support for urgent privacy matters during business hours',
       'Appointed DPO for 1 entity in 1 jurisdiction',
+      'Up to 8 hours/month of DPO support*',
+      '2 x 30-minute monthly sync calls, or 1 x 60-minute monthly sync call',
+      'Annual thorough GDPR health check + Priority Action plan**',
+      'Priority support via email and/or agreed business messaging channels (same business day)',
+      'Priority phone support for urgent privacy matters during and outside business hours***',
+      'Relevant Workspace and GDPR training updates, where applicable.',
     ],
   },
+] as const;
+
+export const dpoPackageNotes = [
+  '* Includes sync calls, preparation, follow-up, email/messaging support, document review, incident/DSAR/vendor support, and general privacy work.',
+  '** Based on available information and the monthly DPO relationship.',
+  '*** Out-of-hours support hours are charged as an add-on.',
 ] as const;
 
 export const dpoAddOns = [
@@ -244,13 +253,6 @@ export const dpoAddOns = [
     price: '€300/hour',
     summary: 'Urgent support outside normal business hours.',
   },
-] as const;
-
-export const dpoLimits = [
-  'Package prices cover 1 entity in 1 jurisdiction.',
-  'Add-ons are billed separately.',
-  'Urgent out-of-hours support is excluded from workspace-buyer discounts.',
-  'Workspace-buyer discounts apply for the first 12 months only.',
 ] as const;
 
 export const workspaceBuyerDpoDiscounts = [
