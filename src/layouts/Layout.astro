@@ -1,6 +1,7 @@
 ---
 import { ClientRouter } from 'astro:transitions';
 import { bookingUrl, companyDetails, footerBlurb, footerQuickLinks, navLinks } from '../data/site';
+import '../styles/global.css';
 
 interface Props {
   title: string;
@@ -26,7 +27,7 @@ const { title, description = "Call Brad - Operational GDPR for lean teams." } = 
   <body class="font-roboto text-[#222222] bg-white antialiased">
     
     <!-- Navigation -->
-    <nav x-data="{ mobileMenu: false }" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+    <nav x-data="{ mobileMenu: false }" class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <a href="/" class="flex items-center">
@@ -104,27 +105,8 @@ const { title, description = "Call Brad - Operational GDPR for lean teams." } = 
     </footer>
 
     <style>
-      @import "tailwindcss";
-      
-      @theme {
-        --font-montserrat: "Montserrat", sans-serif;
-        --font-roboto: "Roboto", sans-serif;
-      }
-
       [x-cloak] {
         display: none !important;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
-      .font-montserrat {
-        font-family: var(--font-montserrat);
-      }
-
-      .font-roboto {
-        font-family: var(--font-roboto);
       }
     </style>
 

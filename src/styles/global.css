@@ -7,6 +7,8 @@
   --color-white: #ffffff;
   --font-title: 'Montserrat', sans-serif;
   --font-body: 'Roboto', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
 }
 
 @layer base {
@@ -26,7 +28,7 @@
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 bg-primary text-white font-semibold rounded-lg transition-all duration-300 hover:bg-opacity-90;
+    @apply px-6 py-3 bg-primary text-white font-semibold rounded-lg transition-all duration-300 hover:opacity-90;
   }
   
   .btn-secondary {

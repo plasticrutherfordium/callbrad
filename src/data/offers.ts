@@ -5,7 +5,7 @@ export const workspacePackages = [
     name: 'Essential',
     price: '€800',
     billing: 'one-off',
-    shortPrice: 'from €800 one-off',
+    shortPrice: 'from €800 one-off + VAT',
     bestFor: 'Best for first structured setup',
     summary: 'Set up the core Notion GDPR Workspace with connected records and a cleaner starting structure.',
   },
@@ -13,7 +13,7 @@ export const workspacePackages = [
     name: 'Operational',
     price: '€1,600',
     billing: 'one-off',
-    shortPrice: '€1,600 one-off',
+    shortPrice: '€1,600 one-off + VAT',
     bestFor: 'Best for active privacy operations',
     summary: 'Broader implementation for teams that need stronger ownership, review routines, and linked records.',
   },
@@ -21,7 +21,7 @@ export const workspacePackages = [
     name: 'Growth',
     price: '€3,000',
     billing: 'one-off',
-    shortPrice: '€3,000 one-off',
+    shortPrice: '€3,000 one-off + VAT',
     bestFor: 'Best for broader rollout',
     summary: 'Wider workspace rollout for teams that need a more mature operating structure from the start.',
   },
@@ -51,8 +51,8 @@ export const workspaceDetailedPackages = [
       'Review logic for keeping records up to date',
     ],
     technicalSupport: 'Email (next business day)',
-    immediateImplementation: 'Additional €500',
-    additionalExpertHours: '€200 / hour',
+    immediateImplementation: 'Additional €500 + VAT',
+    additionalExpertHours: '€200 / hour + VAT',
     operationalCommitmentHours: '4 hours',
     operationalCommitmentItems: [
       '1h initial setup in Notion',
@@ -81,8 +81,8 @@ export const workspaceDetailedPackages = [
       'Ownership and accountability structure',
     ],
     technicalSupport: 'Email and/or agreed business messaging channels (next business day)',
-    immediateImplementation: 'Additional €800',
-    additionalExpertHours: '€200 / hour',
+    immediateImplementation: 'Additional €800 + VAT',
+    additionalExpertHours: '€200 / hour + VAT',
     operationalCommitmentHours: '8 hours',
     operationalCommitmentItems: [
       '1h initial setup in Notion',
@@ -113,8 +113,8 @@ export const workspaceDetailedPackages = [
       'Management-ready governance dashboards',
     ],
     technicalSupport: 'Email and/or agreed business messaging channels (same business day)',
-    immediateImplementation: 'Additional €1,500',
-    additionalExpertHours: '€200 / hour',
+    immediateImplementation: 'Additional €1,500 + VAT',
+    additionalExpertHours: '€200 / hour + VAT',
     operationalCommitmentHours: '15 hours',
     operationalCommitmentItems: [
       '1h initial setup in Notion',
@@ -130,7 +130,7 @@ export const workspaceDetailedPackages = [
 export const workspaceComparisonRows = [
   {
     label: 'Price',
-    values: ['€800 one-off', '€1,600 one-off', '€3,000 one-off'],
+    values: ['€800 one-off + VAT', '€1,600 one-off + VAT', '€3,000 one-off + VAT'],
   },
   {
     label: 'Best for',
@@ -180,7 +180,7 @@ export const dpoPackages = [
     name: 'Essential',
     price: '€200',
     billing: '/month',
-    shortPrice: 'from €200/month',
+    shortPrice: 'from €200/month + VAT',
     bestFor: 'Best for light-touch privacy support',
     summary: 'For teams that need a formally appointed DPO and light-touch privacy support.',
     points: [
@@ -195,7 +195,7 @@ export const dpoPackages = [
     name: 'Operational',
     price: '€700',
     billing: '/month',
-    shortPrice: '€700/month',
+    shortPrice: '€700/month + VAT',
     bestFor: 'Best for practical support and follow-up',
     summary: 'For teams that want GDPR work to keep moving with practical support and follow-up.',
     points: [
@@ -211,7 +211,7 @@ export const dpoPackages = [
     name: 'Growth',
     price: '€1,200',
     billing: '/month',
-    shortPrice: '€1,200/month',
+    shortPrice: '€1,200/month + VAT',
     bestFor: 'Best for stronger governance and faster support',
     summary: 'For teams that need more active DPO involvement, stronger governance, and faster support.',
     points: [
@@ -235,22 +235,22 @@ export const dpoPackageNotes = [
 export const dpoAddOns = [
   {
     name: 'Extra legal entity',
-    price: '€100/month',
+    price: '€100/month + VAT',
     summary: 'Add support for an extra legal entity.',
   },
   {
     name: 'Extra jurisdiction coverage',
-    price: '€50/month',
+    price: '€50/month + VAT',
     summary: 'Add support for an extra jurisdiction.',
   },
   {
     name: 'Extra support hours',
-    price: '€200/hour',
+    price: '€200/hour + VAT',
     summary: 'Additional support time outside package scope.',
   },
   {
     name: 'Urgent out-of-hours support',
-    price: '€300/hour',
+    price: '€300/hour + VAT',
     summary: 'Exceptional support outside normal business hours for urgent privacy incidents, breaches, or regulatory matters.',
   },
 ] as const;
@@ -262,8 +262,8 @@ export const workspaceBuyerDpoDiscounts = [
 ] as const;
 
 export const trainingOffer = {
-  price: '€17/employee',
-  fullPrice: '€17 per employee',
+  price: '€17/employee + VAT',
+  fullPrice: '€17 per employee + VAT',
   minimum: 'Minimum 10 people',
   bulkDiscount: '20% discount for 100+ participants',
   bestFor: 'Best for team rollouts',
@@ -277,9 +277,9 @@ export const trainingIncluded = [
 ] as const;
 
 export const trainingExtras = [
-  { name: 'Separate team customisation', price: '€100/team' },
-  { name: 'Immediate implementation', price: '€300' },
-  { name: 'Custom videos/quiz sections', price: '€250/topic' },
+  { name: 'Separate team customisation', price: '€100/team + VAT' },
+  { name: 'Immediate implementation', price: '€300 + VAT' },
+  { name: 'Custom videos/quiz sections', price: '€250/topic + VAT' },
 ] as const;
 
 export const trainingDeliveryFormats = [

@@ -5,20 +5,30 @@ import { trainingOffer } from '../data/offers';
 ---
 
 <Layout title="GDPR Training | Call Brad" description="GDPR training available now in Notion and Google Workspace, priced per employee.">
-  <section class="pt-32 pb-20 lg:pt-40 lg:pb-32 bg-gradient-to-br from-[#ed60ed]/5 via-white to-white">
+  <section class="pt-20 pb-12 lg:pt-24 lg:pb-14 bg-gradient-to-br from-[#ed60ed]/5 via-white to-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
-        <div class="inline-flex items-center gap-2 px-4 py-2 bg-[#ed60ed]/10 rounded-full mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-[#ed60ed]/10 rounded-full mb-4">
           <span class="w-2 h-2 bg-[#2b2e83] rounded-full"></span>
           <span class="text-sm font-semibold text-[#ed60ed]">GDPR Training</span>
         </div>
-        <h1 class="font-montserrat text-4xl sm:text-5xl lg:text-6xl font-bold text-[#ed60ed] leading-tight mb-6">
+        <h1 class="font-montserrat text-4xl sm:text-5xl lg:text-6xl font-bold text-[#ed60ed] leading-tight mb-4">
           GDPR training that lives where your team already works
         </h1>
         <p class="text-lg sm:text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-          Call Brad provides practical GDPR training for employees. You pay once, add it to the tools your team already uses, and reuse it as needed. No other expensive platform or subscription.
+          You pay once, add it to the tools your team already uses, and reuse it as needed. No other expensive platform or subscription.
         </p>
-        <div class="mb-10">
+        <div class="mx-auto mb-7 aspect-video max-w-2xl overflow-hidden rounded-2xl bg-gray-900 shadow-sm">
+          <iframe
+            class="h-full w-full"
+            src="https://www.youtube-nocookie.com/embed/Obfti9ym5G0"
+            title="Call Brad GDPR training preview video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="mb-7">
           <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-4">
             You choose where to deliver it
           </p>
@@ -43,19 +53,19 @@ import { trainingOffer } from '../data/offers';
         </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#pricing" class="px-8 py-4 bg-[#ed60ed] text-white font-semibold rounded-xl hover:bg-[#d94dd9] transition-all hover:shadow-lg hover:shadow-[#ed60ed]/25">
-            See pricing
+            See package
           </a>
-          <a href="#features" class="px-8 py-4 bg-white text-[#ed60ed] font-semibold rounded-xl border-2 border-[#ed60ed] hover:bg-[#ed60ed]/5 transition-colors">
-            Learn more
+          <a href={bookingUrl} class="px-8 py-4 bg-white text-[#ed60ed] font-semibold rounded-xl border-2 border-[#ed60ed] hover:bg-[#ed60ed]/5 transition-colors">
+            Book an intro call
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="pricing" class="py-20 lg:py-28 bg-white">
+  <section id="pricing" class="py-14 lg:py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
+      <div class="text-center mb-10">
         <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#ed60ed] mb-3">
           Training pricing and delivery
         </h2>
@@ -121,7 +131,7 @@ import { trainingOffer } from '../data/offers';
                 Customisation for separate teams
               </td>
               <td class="border-b border-l border-gray-200 px-6 py-5 text-gray-700">
-                €100 per team
+                €100 per team + VAT
               </td>
             </tr>
             <tr>
@@ -130,7 +140,7 @@ import { trainingOffer } from '../data/offers';
                 <div class="mt-1 font-normal text-gray-500">(start within 1 business day)</div>
               </td>
               <td class="border-b border-l border-gray-200 px-6 py-5 text-gray-700">
-                Additional €300
+                Additional €300 + VAT
               </td>
             </tr>
             <tr>
@@ -139,7 +149,7 @@ import { trainingOffer } from '../data/offers';
                 <div class="mt-1 font-normal text-gray-500">(up to 2 mins, delivered within 2 weeks, no client IP rights)</div>
               </td>
               <td class="border-b border-l border-gray-200 px-6 py-5 text-gray-700">
-                Additional €250 / topic
+                Additional €250 / topic + VAT
               </td>
             </tr>
             <tr>
@@ -160,9 +170,9 @@ import { trainingOffer } from '../data/offers';
     </div>
   </section>
 
-  <section id="features" class="py-20 lg:py-28 bg-white">
+  <section id="features" class="py-14 lg:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
+      <div class="text-center mb-10">
         <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#ed60ed] mb-4">
           Why teams choose this training
         </h2>
@@ -223,9 +233,9 @@ import { trainingOffer } from '../data/offers';
     </div>
   </section>
 
-  <section class="py-20 lg:py-28 bg-gray-50">
+  <section class="py-14 lg:py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
+      <div class="text-center mb-10">
         <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#ed60ed] mb-4">
           Example coverage areas
         </h2>
@@ -263,7 +273,7 @@ import { trainingOffer } from '../data/offers';
     </div>
   </section>
 
-  <section class="py-20 lg:py-28 bg-gradient-to-b from-[#ed60ed]/10 to-white">
+  <section class="py-14 lg:py-20 bg-gradient-to-b from-[#ed60ed]/10 to-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#ed60ed] mb-6">
         Train your team effectively

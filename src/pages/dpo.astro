@@ -5,23 +5,23 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
 ---
 
 <Layout title="DPO Services | Call Brad" description="Monthly DPO support packages with fixed pricing, add-ons, and workspace-buyer discounts.">
-  <section class="pt-32 pb-20 lg:pt-40 lg:pb-32 bg-gradient-to-br from-gray-100 via-white to-white">
+  <section class="pt-20 pb-12 lg:pt-24 lg:pb-14 bg-gradient-to-br from-gray-100 via-white to-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
-        <div class="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 rounded-full mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 rounded-full mb-4">
           <span class="w-2 h-2 bg-[#2b2e83] rounded-full"></span>
           <span class="text-sm font-semibold text-gray-700">DPO Services</span>
         </div>
-        <h1 class="font-montserrat text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2b2e83] leading-tight mb-6">
+        <h1 class="font-montserrat text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2b2e83] leading-tight mb-4">
           DPO support for teams that need a clear monthly structure
         </h1>
-        <p class="text-lg sm:text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+        <p class="text-lg sm:text-xl text-gray-600 mb-4 max-w-3xl mx-auto">
           We provide package-based DPO support for lean teams that need a designated and operationally useful privacy function with visible pricing, defined scope, and practical ongoing support.
         </p>
-        <p class="text-base sm:text-lg text-gray-500 mb-5 max-w-3xl mx-auto">
+        <p class="text-base sm:text-lg text-gray-500 mb-4 max-w-3xl mx-auto">
           All our professionals have IAPP credentials.
         </p>
-        <div class="mb-10 flex flex-wrap items-center justify-center gap-3">
+        <div class="mb-7 flex flex-wrap items-center justify-center gap-3">
           <img src="/imgs_callbrad/cipp2.png" alt="CIPP/E credential" class="h-12 w-auto" loading="lazy" />
           <img src="/imgs_callbrad/cipp3.png" alt="CIPP/US credential" class="h-12 w-auto" loading="lazy" />
           <img src="/imgs_callbrad/cipt.png" alt="CIPT credential" class="h-12 w-auto" loading="lazy" />
@@ -40,9 +40,9 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
     </div>
   </section>
 
-  <section id="packages" class="py-20 lg:py-28 bg-white">
+  <section id="packages" class="py-14 lg:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
+      <div class="text-center mb-10">
         <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#2b2e83] mb-4">
           Choose the right DPO package
         </h2>
@@ -64,6 +64,7 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
             <div class="mb-6 flex items-baseline justify-center gap-1">
               <span class="text-4xl font-bold text-[#2b2e83]">{pkg.price}</span>
               <span class="text-gray-500">{pkg.billing}</span>
+              <span class="text-sm font-semibold text-gray-500">+ VAT</span>
             </div>
             <ul class="space-y-3">
               {pkg.points.map((point) => (
@@ -96,9 +97,9 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
     </div>
   </section>
 
-  <section class="py-20 lg:py-28 bg-gray-50">
+  <section class="py-14 lg:py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
         <div>
           <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#2b2e83] mb-6">
             Why teams choose this DPO structure
@@ -162,7 +163,7 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
               <tr>
                 <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-gray-500">Item</th>
                 <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-gray-500">Details</th>
-                <th class="px-4 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-gray-500">Price</th>
+                <th class="w-48 px-4 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-gray-500">Price</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-100">
@@ -170,13 +171,13 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
                 <tr>
                   <td class="px-4 py-4 font-semibold text-gray-900">{addon.name}</td>
                   <td class="px-4 py-4 text-sm text-gray-600">{addon.summary}</td>
-                  <td class="px-4 py-4 text-sm font-semibold text-[#2b2e83]">{addon.price}</td>
+                  <td class="whitespace-nowrap px-4 py-4 text-sm font-semibold text-[#2b2e83]">{addon.price}</td>
                 </tr>
               ))}
               <tr>
                 <td class="px-4 py-4 font-semibold text-gray-900">Workspace buyer discount</td>
                 <td class="px-4 py-4 text-sm text-gray-600">When you buy the workspace, DPO Packages can be reduced by up to 15% for the first 3 months.</td>
-                <td class="px-4 py-4 text-sm font-semibold text-[#2b2e83]">Up to 15% off</td>
+                <td class="whitespace-nowrap px-4 py-4 text-sm font-semibold text-[#2b2e83]">Up to 15% off</td>
               </tr>
             </tbody>
           </table>
@@ -185,7 +186,7 @@ import { dpoAddOns, dpoPackageNotes, dpoPackages } from '../data/offers';
     </div>
   </section>
 
-  <section class="py-20 lg:py-28 bg-gradient-to-b from-gray-100 to-white">
+  <section class="py-14 lg:py-20 bg-gradient-to-b from-gray-100 to-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="font-montserrat text-3xl sm:text-4xl font-bold text-[#2b2e83] mb-6">
         Ready to put a more structured DPO setup in place?
