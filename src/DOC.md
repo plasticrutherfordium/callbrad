@@ -39,13 +39,13 @@ Secondary CTA label: Explore the products
 * 2.2 Products overview section
 Intro line: Three practical ways to make GDPR less messy.
 Offer	Short positioning line	Status on site
-RoPA Collaborative System	A collaborative GDPR workspace for building and maintaining records, workflows, and review logic.	Primary
+RoPA Collaborative System	A collaborative GDPR teamspace for building and maintaining records, workflows, and review logic.	Primary
 Employees GDPR Training	A practical employee training product delivered directly in the client’s own workspace.	Primary
 DPO Services	Ongoing package-based support for businesses that need a designated and operationally useful DPO setup.	Secondary
 
 * 2.3 RoPA Collaborative System section
 Suggested section title: A RoPA system your team can actually use
-Draft paragraph: This is a collaborative GDPR workspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
+Draft paragraph: This is a collaborative GDPR teamspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
 Draft paragraph: The section should leave room for a more detailed feature list, screenshots, and final pricing once those are ready. The design should therefore support later updates without needing to redesign the whole page.
 Suggested bullet points:
 • Collaborative and easier to maintain than static spreadsheets

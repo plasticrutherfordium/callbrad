@@ -6,7 +6,7 @@ Implement the revised Call Brad website copy and structure so the website clearl
 
 The website must make it clear that Call Brad helps startups, SaaS companies, fintechs, SMEs and lean teams build practical privacy operations through:
 
-- a Notion GDPR Workspace available now;
+- a Notion GDPR Teamspace available now;
 - DPO support packages;
 - GDPR employee training available in Notion and Google Workspace;
 - RoPA / connected register setup and maintenance;
@@ -86,7 +86,7 @@ Prefer concrete wording, for example:
 
 Replace the current navigation with:
 
-1. GDPR Workspace
+1. GDPR Teamspace
 2. DPO Services
 3. GDPR Training
 4. Pricing
@@ -96,7 +96,7 @@ Replace the current navigation with:
 
 Implementation notes:
 
-- Replace “RoPA System” with “GDPR Workspace”.
+- Replace “RoPA System” with “GDPR Teamspace”.
 - Replace “Expertise” with “About”.
 - Keep the Privacy Notice link in the footer/legal area only.
 - Do not put Privacy Notice in the main navigation.
@@ -106,7 +106,7 @@ Implementation notes:
 Implement or update these pages/routes:
 
 1. Homepage
-2. GDPR Workspace page
+2. GDPR Teamspace page
 3. DPO Services page
 4. GDPR Training page
 5. Pricing page
@@ -127,7 +127,7 @@ Use the following rules consistently across the site:
 
 ### Available now
 
-- Notion GDPR Workspace
+- Notion GDPR Teamspace
 - Employee GDPR training in Notion
 - Employee GDPR training in Google Workspace
 - DPO support packages
@@ -136,16 +136,16 @@ Use the following rules consistently across the site:
 
 ### Coming soon
 
-- Full Confluence GDPR Workspace version
-- Full Google Workspace GDPR Workspace version
+- Full Confluence GDPR Teamspace version
+- Full Google Workspace GDPR Teamspace version
 
 ### Important distinction
 
-The full GDPR Workspace is currently available in Notion only.
+The full GDPR Teamspace is currently available in Notion only.
 
 Training is already available in both Notion and Google Workspace.
 
-Do not write copy that suggests the full Confluence or Google Workspace GDPR Workspace is already launched.
+Do not write copy that suggests the full Confluence or Google Workspace GDPR Teamspace is already launched.
 
 ## 8. Design direction
 
@@ -197,7 +197,7 @@ Avoid making “Book a call” the only dominant CTA. The site should feel trans
 The homepage must make these points clear within the first screen:
 
 1. Call Brad provides operational GDPR for lean teams.
-2. The main launch product is a Notion GDPR Workspace.
+2. The main launch product is a Notion GDPR Teamspace.
 3. DPO support and GDPR training are available.
 4. Training is already available in Notion and Google Workspace.
 5. Full Confluence and Google Workspace workspace versions are coming soon.
@@ -210,7 +210,7 @@ The homepage must make these points clear within the first screen:
 3. What Call Brad does
 4. Available now / coming soon
 5. Core services
-6. Notion GDPR Workspace
+6. Notion GDPR Teamspace
 7. DPO Services
 8. GDPR Training
 9. Pricing preview
@@ -229,7 +229,7 @@ Eyebrow:
 
 Headline:
 
-> A practical GDPR workspace for teams that need privacy to work in real life
+> A practical GDPR teamspace for teams that need privacy to work in real life
 
 Body:
 
@@ -273,11 +273,11 @@ Heading:
 
 Body:
 
-> We build practical GDPR workspaces and support models for teams that need privacy to work day to day.
+> We build practical GDPR teamspaces and support models for teams that need privacy to work day to day.
 
 Cards or bullets:
 
-- GDPR workspace setup and implementation
+- GDPR teamspace setup and implementation
 - RoPA and connected register setup
 - employee GDPR training inside your existing stack
 - practical DPO support for lean teams
@@ -292,7 +292,7 @@ Heading:
 
 Available now:
 
-- Notion GDPR Workspace
+- Notion GDPR Teamspace
 - Employee GDPR training in Notion
 - Employee GDPR training in Google Workspace
 - DPO support packages
@@ -301,8 +301,8 @@ Available now:
 
 Coming soon:
 
-- Full Confluence GDPR Workspace version
-- Full Google Workspace GDPR Workspace version
+- Full Confluence GDPR Teamspace version
+- Full Google Workspace GDPR Teamspace version
 
 Body:
 
@@ -312,7 +312,7 @@ Body:
 
 Use four cards:
 
-#### Notion GDPR Workspace
+#### Notion GDPR Teamspace
 
 > A working GDPR operating system in Notion. Not a static template. Not a folder of documents. A connected workspace your team can actually use and maintain.
 
@@ -336,9 +336,9 @@ CTA: See how it works
 
 CTA: View training
 
-## 11. GDPR Workspace page requirements
+## 11. GDPR Teamspace page requirements
 
-Rename the current RoPA page to GDPR Workspace.
+Rename the current RoPA page to GDPR Teamspace.
 
 Preferred route options:
 
@@ -349,15 +349,15 @@ Preferred route options:
 
 Eyebrow:
 
-> Notion GDPR Workspace
+> Notion GDPR Teamspace
 
 Headline:
 
-> The GDPR workspace your team will actually maintain
+> The GDPR teamspace your team will actually maintain
 
 Body:
 
-> The Notion GDPR Workspace is the first Call Brad launch product. It is designed for teams that need a working privacy system without buying heavy privacy software too early.
+> The Notion GDPR Teamspace is the first Call Brad launch product. It is designed for teams that need a working privacy system without buying heavy privacy software too early.
 >
 > The workspace connects the parts of GDPR work that usually end up scattered across separate files and forgotten spreadsheets.
 
@@ -512,7 +512,7 @@ Show clearly below the package cards:
 
 Show as a highlighted note:
 
-> Clients who purchase the GDPR Workspace receive a first-year discount on DPO packages: 10% off DPO Essential, 15% off DPO Operational, and 20% off DPO Growth. The discount applies for the first 12 months only and excludes add-ons and urgent support.
+> Clients who purchase the GDPR Teamspace receive a first-year discount on DPO packages: 10% off DPO Essential, 15% off DPO Operational, and 20% off DPO Growth. The discount applies for the first 12 months only and excludes add-ons and urgent support.
 
 ## 13. GDPR Training page requirements
 
@@ -745,7 +745,7 @@ Create or update a FAQ page. Also include a shorter FAQ preview on the homepage.
 
 Required FAQ items:
 
-### What is the Notion GDPR Workspace?
+### What is the Notion GDPR Teamspace?
 
 > It is a practical GDPR operating system built in Notion. It connects records, reviews and actions so privacy work is easier to run and maintain.
 
@@ -803,11 +803,11 @@ If booking/contact links are already configured, preserve them. If not, add plac
 
 Update footer copy to:
 
-> Practical GDPR workspaces, training and DPO support for lean teams. Built for privacy operations that people can actually maintain.
+> Practical GDPR teamspaces, training and DPO support for lean teams. Built for privacy operations that people can actually maintain.
 
 Footer links:
 
-- GDPR Workspace
+- GDPR Teamspace
 - DPO Services
 - GDPR Training
 - Pricing
@@ -838,13 +838,13 @@ Title:
 
 Description:
 
-> Practical GDPR workspaces, DPO support and employee training for startups, SaaS companies, fintechs, SMEs and lean teams.
+> Practical GDPR teamspaces, DPO support and employee training for startups, SaaS companies, fintechs, SMEs and lean teams.
 
-### GDPR Workspace
+### GDPR Teamspace
 
 Title:
 
-> Notion GDPR Workspace | Call Brad
+> Notion GDPR Teamspace | Call Brad
 
 Description:
 
@@ -878,7 +878,7 @@ Title:
 
 Description:
 
-> Clear pricing for GDPR Workspace setup, DPO support and employee GDPR training.
+> Clear pricing for GDPR Teamspace setup, DPO support and employee GDPR training.
 
 ### About
 
@@ -898,7 +898,7 @@ Title:
 
 Description:
 
-> Common questions about the Call Brad GDPR Workspace, DPO services, GDPR training, pricing and implementation.
+> Common questions about the Call Brad GDPR Teamspace, DPO services, GDPR training, pricing and implementation.
 
 ## 20. Accessibility and UX requirements
 
@@ -921,7 +921,7 @@ Recommended implementation approach:
 
 1. Find current page components/routes.
 2. Replace navigation labels and target routes.
-3. Rename or replace the RoPA page with GDPR Workspace.
+3. Rename or replace the RoPA page with GDPR Teamspace.
 4. Replace the Expertise page with About.
 5. Add Pricing and FAQ pages if they do not already exist.
 6. Update homepage sections and copy.
@@ -953,10 +953,10 @@ Do not over-engineer the site into a CMS or app unless the existing codebase alr
 
 Across all pages:
 
-- Use “GDPR Workspace”, not “RoPA System”, as the main product label.
+- Use “GDPR Teamspace”, not “RoPA System”, as the main product label.
 - Refer to RoPA as part of the workspace/register setup, not as the whole offer.
-- Use “Notion GDPR Workspace” when referring to the available product.
-- Use “Confluence GDPR Workspace” and “Google Workspace GDPR Workspace” only as coming soon.
+- Use “Notion GDPR Teamspace” when referring to the available product.
+- Use “Confluence GDPR Teamspace” and “Google Workspace GDPR Teamspace” only as coming soon.
 - Use “employee GDPR training”, not “training platform”, unless there is an actual platform.
 - Use “DPO support”, not only “DPO appointment”.
 - Use “practical GDPR implementation”, not “tailored compliance solutions”.
@@ -996,11 +996,11 @@ Add clear TODO comments where needed for:
 The implementation is complete when:
 
 - The homepage clearly communicates the Call Brad offer within the first screen.
-- The Notion GDPR Workspace is presented as the available launch product.
+- The Notion GDPR Teamspace is presented as the available launch product.
 - Confluence and Google Workspace full workspace versions are clearly marked as coming soon.
 - GDPR training is clearly marked as already available in Notion and Google Workspace.
-- Navigation uses GDPR Workspace, DPO Services, GDPR Training, Pricing, About, FAQ and Contact.
-- The RoPA page has been replaced or repositioned as GDPR Workspace.
+- Navigation uses GDPR Teamspace, DPO Services, GDPR Training, Pricing, About, FAQ and Contact.
+- The RoPA page has been replaced or repositioned as GDPR Teamspace.
 - The Expertise page no longer uses first-person “I” copy and is replaced by About / credibility copy.
 - DPO package prices are €300, €700 and €1,200 per month.
 - Workspace package prices are €800, €1,500 and €3,000 one-off.

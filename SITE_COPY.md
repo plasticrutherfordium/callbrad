@@ -33,7 +33,7 @@ This document is the current clean website copy for the Call Brad site, separate
 ### Products Overview
 
 - Heading: Three practical ways to make GDPR less messy
-- RoPA Collaborative System: A collaborative GDPR workspace for building and maintaining records, workflows, and review logic.
+- RoPA Collaborative System: A collaborative GDPR teamspace for building and maintaining records, workflows, and review logic.
 - Employees GDPR Training: A practical employee training product delivered directly in your own workspace.
 - DPO Services: Ongoing package-based support for businesses that need a designated and operationally useful DPO setup.
 
@@ -41,7 +41,7 @@ This document is the current clean website copy for the Call Brad site, separate
 
 - Label: Featured Product
 - Heading: A RoPA system your team can actually use
-- Body: A collaborative GDPR workspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
+- Body: A collaborative GDPR teamspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
 
 Key points:
 
@@ -145,7 +145,7 @@ Our free 30-minute consultation is designed to understand your needs and see if 
 
 - Eyebrow: RoPA Collaborative System
 - Heading: A RoPA system your team can actually use
-- Body: A collaborative GDPR workspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
+- Body: A collaborative GDPR teamspace built for real operational use. Instead of forcing your team into another heavy compliance platform, the system is designed to make records of processing activities, related assessments, review logic, and follow-up work easier to manage in a structured and practical way.
 - Primary CTA: Book a demo
 - Secondary CTA: Learn more
 
