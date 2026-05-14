@@ -23,14 +23,14 @@ export const testimonials = [
 ] as const;
 
 export const navLinks = [
-  { href: '/gdpr-workspace', label: 'GDPR Teamspace' },
+  { href: '/gdpr-workspace', label: 'Data Protection OS' },
   { href: '/dpo', label: 'DPO Services' },
   { href: '/training', label: 'GDPR Training' },
   { href: '/faq', label: 'FAQ' },
 ] as const;
 
 export const footerQuickLinks = [
-  { href: '/gdpr-workspace', label: 'GDPR Teamspace' },
+  { href: '/gdpr-workspace', label: 'Data Protection OS' },
   { href: '/dpo', label: 'DPO Services' },
   { href: '/training', label: 'GDPR Training' },
   { href: '/faq', label: 'FAQ' },
@@ -38,7 +38,7 @@ export const footerQuickLinks = [
 ] as const;
 
 export const footerBlurb =
-  'Operational GDPR for lean teams. Practical teamspace, training, and DPO support without heavy software overhead.';
+  'Operational GDPR for lean teams. Practical Data Protection OS, training, and DPO support without heavy software overhead.';
 
 export const companyDetails =
   'Trauko OÜ | Privacy Compliance Services | VAT/Business ID';

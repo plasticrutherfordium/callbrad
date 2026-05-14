@@ -7,7 +7,7 @@ export const workspacePackages = [
     billing: 'one-off',
     shortPrice: 'from €1,000 one-off + VAT',
     bestFor: 'Best for first structured setup',
-    summary: 'Set up the core Notion GDPR Teamspace with connected records and a cleaner starting structure.',
+    summary: 'Set up the core Notion Data Protection OS with connected records and a cleaner starting structure.',
   },
   {
     name: 'Operational',
@@ -23,7 +23,7 @@ export const workspacePackages = [
     billing: 'one-off',
     shortPrice: '€3,200 one-off + VAT',
     bestFor: 'Best for broader rollout',
-    summary: 'Wider teamspace rollout for teams that need a more mature operating structure from the start.',
+    summary: 'Wider Data Protection OS rollout for teams that need a more mature operating structure from the start.',
   },
 ] as const;
 
@@ -47,7 +47,7 @@ export const workspaceDetailedPackages = [
       'Subprocessors, DSAR and Data Breach registers',
       'Legal and configuration databases',
       'External-facing privacy page structure',
-      'Basic AI-ready teamspace capabilities',
+      'Basic AI-ready operating system capabilities',
       'Review logic for keeping records up to date',
     ],
     technicalSupport: 'Email (next business day)',
@@ -73,7 +73,7 @@ export const workspaceDetailedPackages = [
     ],
     functionalityLead: 'Everything in Essential plus:',
     functionalityItems: [
-      'Brad AI teamspace assistant setup',
+      'Brad AI operating system assistant setup',
       'Review and assessment queue',
       'Built-in task manager',
       'Operational dashboards',
@@ -120,7 +120,7 @@ export const workspaceDetailedPackages = [
       '1h initial setup in Notion',
       '2h initial client session',
       '2h weekly review sessions',
-      '7h data migration and teamspace setup (including Brad AI)',
+      '7h data migration and Data Protection OS setup (including Brad AI)',
       '2h Policy Hub setup',
       '2h email and chat support',
     ],
@@ -138,14 +138,14 @@ export const workspaceComparisonRows = [
   },
   {
     label: 'Delivery',
-    values: ['Notion teamspace now', 'Notion teamspace now', 'Notion teamspace now'],
+    values: ['Notion Data Protection OS now', 'Notion Data Protection OS now', 'Notion Data Protection OS now'],
   },
   {
     label: 'Scope emphasis',
     values: ['Core connected setup', 'Broader linked structure', 'Wider operating structure'],
   },
   {
-    label: 'Teamspace-buyer DPO discount',
+    label: 'Data Protection OS buyer DPO discount',
     values: ['10% off DPO Essential', '12% off DPO Operational', '15% off DPO Growth'],
   },
 ] as const;
@@ -153,7 +153,7 @@ export const workspaceComparisonRows = [
 export const workspaceWhatYouGet = [
   {
     title: 'Connected records',
-    text: 'A teamspace built to link core GDPR records instead of leaving them in disconnected files.',
+    text: 'A Data Protection OS built to link core GDPR records instead of leaving them in disconnected files.',
   },
   {
     title: 'Clearer ownership',
@@ -161,7 +161,7 @@ export const workspaceWhatYouGet = [
   },
   {
     title: 'Notion now',
-    text: 'The current full teamspace offer is available now in Notion, with other teamspace versions still coming soon.',
+    text: 'The current full Data Protection OS offer is available now in Notion, with other platform versions still coming soon.',
   },
 ] as const;
 
@@ -315,7 +315,7 @@ export const trainingModules = [
 ] as const;
 
 export const customQuoteTriggers = [
-  'Need a coming-soon teamspace version in Confluence or Google Workspace',
+  'Need a coming-soon Data Protection OS version in Confluence or Google Workspace',
   'Need multiple legal entities or broader jurisdiction coverage',
   'Need separate team customisation for training',
   'Need custom videos or quiz sections by topic',
